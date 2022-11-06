@@ -1,6 +1,6 @@
 FROM runmymind/docker-android-sdk:alpine-standalone
 
-RUN apk update && apk upgrade && \
+RUN apk update && apk upgrade --force-overwrite && \
     apk del openjdk11 && \
     apk add gradle npm openjdk8 && \
     npm config set unsafe-perm true && \
