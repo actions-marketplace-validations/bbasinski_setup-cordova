@@ -1,6 +1,6 @@
 ## setup-cordova
 
-[![GitHub Actions](https://img.shields.io/github/workflow/status/oxr463/setup-cordova/Continuous%20Integration?style=flat-square)](https://github.com/oxr463/setup-cordova/actions)
+[![GitHub Actions](https://img.shields.io/github/workflow/status/bbasinski/setup-cordova/Continuous%20Integration?style=flat-square)](https://github.com/bbasinski/setup-cordova/actions)
 
 Setup your GitHub Actions workflow with Apache Cordova.
 
@@ -9,8 +9,8 @@ Setup your GitHub Actions workflow with Apache Cordova.
 ## Example
 
 ```yaml
-- name: Use oxr463/setup-cordova
-  uses: oxr463/setup-cordova@0.0.3
+- name: Use bbasinski/setup-cordova
+  uses: bbasinski/setup-cordova@0.0.3
   with:
     exec: |
       cordova platform add android && \
@@ -25,11 +25,3 @@ Initially based on [coturiv/setup-ionic](https://github.com/coturiv/setup-ionic)
 ## License
 
 SPDX-License-Identifier: [MIT](LICENSE)
-
-## Reference
-
-- [Hello world docker action](https://github.com/actions/hello-world-docker-action)
-
-## See Also
-
-- [Setup Leiningen](https://github.com/oxr463/setup-leiningen)
